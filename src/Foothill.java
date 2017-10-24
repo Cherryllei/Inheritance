@@ -33,7 +33,7 @@ public class Foothill
       System.out.println(user2);
       
       System.out.println("\n\n----------------");
-      user3 = new Communicator("sally","");
+      user3 = new Communicator("sally","", 19, 37);
       System.out.println(user3);
       
       System.out.println("\n\n----------------");
@@ -41,10 +41,9 @@ public class Foothill
       System.out.println(user4);
       
       System.out.println("\n\n----------------");
-      user5 = new Communicator("giral","");
+      user5 = new Communicator("giral","", 809, 821);
       System.out.println(user5);
-      System.out.println("\n(more supplied by student)");
-      System.out.println("\n\n(other tests supplied by student)");
+
       System.out.println("--------------------------------------------------------- */");
    }
 }
